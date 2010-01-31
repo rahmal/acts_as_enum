@@ -1,0 +1,8 @@
+*.iws
+*.ipr
+*.iml
+*.swp
+*.*~
+.rakeTasks
+.idea
+*.log

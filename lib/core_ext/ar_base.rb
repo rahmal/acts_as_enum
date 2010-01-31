@@ -59,16 +59,6 @@ module ActiveRecord
         @@enums << name
       end
       @@enums.freeze
-
-
-      class_eval do
-
-        define_method :[] do
-
-        end
-
-
-      end # class_eval
     end
 
     def self.[] index
